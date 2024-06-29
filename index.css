@@ -1,0 +1,147 @@
+body{
+    background-image: linear-gradient(rgba(0,0,0,1),rgba(0,0,0,0.75),rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url(img/bk1.jpg);
+    background-size:cover;
+    background-position: fixed;
+    
+}
+.main {
+    justify-content: center;
+    align-items: center;
+    margin: 20vh;
+}
+h1 {
+    margin-top: -5rem;
+    margin-left: 0rem;
+    color: white;
+    font-size: 75px;
+    font-weight: bold;
+    text-align: center;
+    padding: 2px;
+    background-color: rgba(146, 149, 139, 0.5);
+    border-radius: 25px;
+}
+.main-btn  {
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    margin-left: 32rem;
+    float: none;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(23, 102, 126);
+    font-size: 35px;
+}
+.main-btn:hover {
+    color: black;
+    background-color: white;
+    animation-delay: 100ms;
+}
+.top-display {
+    color: aliceblue;
+    margin-bottom: -10rem;
+    position: center;
+}
+#list-items {
+    display: none;
+    padding: 100px;
+    margin: 100px;
+    float: none;
+    margin-bottom: -8rem;
+    
+    
+}
+.herbi {
+    padding: 10px;
+    margin: 100px;
+    margin-top: -10rem;
+    margin-bottom: 10px;
+    margin-left: -2rem;
+}
+.herbi button {
+    padding: 10px;
+    border: none;
+    margin: 2px;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(54, 175, 190);
+    font-size: 30px;
+}
+.herbi button:hover {
+    color: black;
+    background-color: white;
+}
+.carni button:hover {
+    color: black;
+    background-color: white;
+}
+.carni button{
+    border: none;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 10px;
+    color: white;
+    font-size: 30px ;
+    background-color: rgb(54, 175, 190);
+}
+#c-list {
+    margin-top: 10px;
+    display: none;
+    padding: 10px;
+    text-align: right;
+}
+#c-list button {
+    padding: 10px;
+}
+#h-list {
+    margin-top: 10px;
+    display: none;
+}
+.carni {
+    margin-top: -10rem;
+    margin-left: 25rem;
+    margin-right: rem;
+}
+.btm-display {
+
+    width: 100%;
+    height:25rem;
+    position: relative;
+    display: grid;
+    margin-top: 3rem;
+    background-color: rgba(128, 128, 128, 0.3);
+    margin-bottom: 100px;
+}
+.anml-item p {
+    padding: 22px;
+    margin-top: -1rem;
+    text-align: left;
+    margin-right: 1rem;
+    font-size: 25px;
+    color: white;
+}
+.anml-item img {
+    width: 80%;
+    height: 15rem;
+}
+.anml-item audio {
+    width: 75%;
+    margin-top: 4rem;
+}
+.anml-item {
+    margin: 50px;
+    display: none;
+    height: 100px;
+    
+    background-size: cover;
+    color: white;
+    
+    
+}
+.anml-desc span {
+    font-weight: bolder;
+    font-size: 30px;
+    color: black;
+}

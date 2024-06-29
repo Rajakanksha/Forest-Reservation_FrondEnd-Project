@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>RESERVATION OF FOREST</title>
+<link rel="stylesheet" href="index.css">
+<script src="index.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="heading">
+            <h1>RESERVATION OF FOREST</h1>
+        </div>
+        <div class="descrptn"><p style="font-size: 30px; color: white;">
+            A reserved forest (also called reserve forest) and protected forest in India are terms denoting forests accorded a 
+            certain degree of protection. The term was first introduced in the Indian Forest Act, 1927 in British Raj,
+             to refer to certain forests granted protection under the British crown in British India, but not associated suzerainties.
+              After Indian independence, the Government of India retained the status of the existing reserved and protected forests, 
+              as well as incorporating new reserved and protected forests. Many forests which came under the jurisdiction of
+               the Government of India during the political integration of India were initially granted such protection.
+             The first Reserve Forest Of India was Satpura National Park.
+        </p>
+        </div>
+        <div class="top-display">
+            <div class="anml-btn" id="anml-btn">
+                <button class="main-btn" onclick="show_hide0()">ANIMAL</button>
+                <div id="list-items">
+                    <div class="herbi">
+                        <button  onclick="show_hide1()">Herbivorus</button>
+                        <div id="h-list">
+                            <button onclick="show_deer()">Deer</button>
+                            
+                            <button onclick="show_elephant()">Elephant</button>
+                           
+                            <button onclick="show_girraffe()">Girraffe</button>
+                            
+                            <button onclick="show_monkey()">Monkey</button>
+                            
+                        </div>
+                    </div>
+                   <div class="carni">
+                        <button onclick="show_hide2()">Carnivorus</button>
+                        <div  id="c-list">
+                             <button onclick="show_lion()">Lion</button><br>
+                            
+                            <button onclick="show_tiger()">Tiger</button>
+                           
+                            <button onclick="show_cheeta()">Cheetah</button>
+                            
+                            <button onclick="show_bear()">Bear</button>
+                        </div>
+                            
+                    </div>
+                </div>
+        </div>
+                <div class="btm-display">
+                    <div id="deer" class="anml-item">
+                        <img src="img/deer.jfif" alt="">
+                        <div class="anml-desc" style="margin-right: 25px;">
+                            <p>
+                                <span>Name: </span> Deer <br>
+                                <span>Scientific Name: </span>Cervidae <br>
+                                <span>Food: </span>Grasses, sedges, the leaves and shoots of trees and other woody plants <br>
+                                <span>Habitat: </span>They live in wetlands, deciduous forests, grasslands, rain forests, arid scrublands and mountains. <br>
+                                
+                            </p>
+                        </div>
+                            <audio controls src="audio/cheeta.mp3" type="audio/mpeg" style="width: 15rem;">Play</audio>
+                    </div>
+                    <div id="elephant" class="anml-item">
+                        <img src="img/elephant.jfif" alt="">
+                        <div class="anml-desc" style="margin-right: 25px;">
+                            <p>
+                                <span>Name: </span> Elephant <br>
+                                <span>Scientific Name: </span>Loxodonta <br>
+                                <span>Food: </span>Elephants eat parts of the plant, and spit out the leaves and seeds, which help to propagate the plant <br>
+                                <span>Habitat: </span>They are found most often in savannas, grasslands, and forests. <br>
+                                
+                            </p>
+                        </div>
+                            <audio controls src="audio/elaphant.mp3" type="audio/mpeg" style="width: 15rem;">Play</audio>
+                    </div>
+                    <div id="monkey"  class="anml-item">
+                        <img src="img/monkey.jfif" alt="">
+                        <div class="anml-desc" style="margin-right: 25px;">
+                            <p>
+                                <span>Name: </span>Monkey <br>
+                                <span>Scientific Name: </span>Cercopithecidae<br>
+                                <span>Food: </span>Monkeys do eat fruits, but they wouldn't encounter bananas like we could get at the grocery store in the forest. <br>
+                                <span>Habitat: </span>They tend to live in forest regions where they have lots of trees around them. <br>
+                                
+                            </p>
+                        </div>
+                            <audio aria-controls="play" src="audio/monkey.mp3" type="audio/mpeg" style="width: 15rem;">Play</audio>
+                    </div>
+                    <div id="girraffe" class="anml-item">
+                        <img src="img/girraffe.jfif" alt="">
+                        <div class="anml-desc" style="margin-right: 25px;">
+                            <p>
+                                <span>Name: </span>Giraffe<br>
+                                <span>Scientific Name: </span>Giraffa <br>
+                                <span>Food: </span>Giraffe are predominantly browsers and mainly eat leaves and buds on trees and shrubs. <br>
+                                <span>Habitat: </span>They live in wetlands, deciduous forests, grasslands, rain forests, arid scrublands and mountains. <br>
+                                
+                            </p>
+                        </div>
+                            <audio controls src="audio/cheeta.mp3" type="audio/mpeg" style="width: 15rem;">Play</audio>
+                    </div>
+                    <div id="lion" class="anml-item">
+                        <img src="img/lion.jfif" alt="">
+                        <div class="anml-desc" style="margin-right: 25px;">
+                            <p>
+                                <span>Name: </span>Lion<br>
+                                <span>Scientific Name: </span>Panthera leo <br>
+                                <span>Food: </span>Lions usually hunt and eat medium-sized to large hoofed animals like wildebeests, zebras, and antelopes. <br>
+                                <span>Habitat: </span>Prime habitat for lions is open woodlands, thick grassland, and brush habitat where there is enough cover for hunting and denning.<br>
+                                
+                            </p>
+                        </div>
+                            <audio controls src="audio/lion.mp3" type="audio/mpeg" style="width: 15rem;">Play</audio>
+                    </div>
+                    <div id="tiger" class="anml-item">
+                        <img src="img/tiger.jfif" alt="">
+                        <div class="anml-desc" style="margin-right: 25px;">
+                            <p>
+                                <span>Name: </span>Tiger<br>
+                                <span>Scientific Name: </span>Panthera tigris<br>
+                                <span>Food: </span>Tigers eat a variety of prey ranging in size from termites to elephant calves.<br>
+                                <span>Habitat: </span>TTigers are found in amazingly diverse habitats: rain forests, grasslands, savannas and even mangrove swamps. <br>
+                                
+                            </p>
+                        </div>
+                            <audio controls src="audio/tiger.mp3" type="audio/mpeg" style="width: 15rem;">Play</audio>
+                    </div>
+                    <div id="cheeta" class="anml-item">
+                        <img src="img/cheetah.jfif" alt="">
+                        <div class="anml-desc" style="margin-right: 25px;">
+                            <p>
+                                <span>Name: </span>Cheetah <br>
+                                <span>Scientific Name: </span>Acinonyx jubatus <br>
+                                <span>Food: </span>Gazelles (especially Gazella thompsonii), impalas (Aepyceros melampus), other small- to medium-sized ungulates. <br>
+                                <span>Habitat: </span>Cheetahs are tolerant of a wide range of habitats including shrublands, grasslands, savannahs, and temperate to hot deserts. <br>
+                                
+                            </p>
+                        </div>
+                            <audio controls src="audio/cheeta.mp3" type="audio/mpeg" style="width: 15rem;">Play</audio>
+                    </div>
+                    <div id="bear" class="anml-item">
+                        <img src="img/bear.jfif" alt="">
+                        <div class="anml-desc" style="margin-right: 25px;">
+                            <p>
+                                <span>Name: </span> Bear <br>
+                                <span>Scientific Name: </span>Ursidae <br>
+                                <span>Food: </span>The bear is omnivorous. Its diet consists of berries, grain, fish, insects, birds and mammals<br>
+                                <span>Habitat: </span>Brown bears can be found in many habitats, from the fringes of deserts to high mountain forests and ice fields.<br>
+                                
+                            </p>
+                        </div>
+                            <audio controls src="audio/bear.mp3" type="audio/mpeg" style="width: 15rem;">Play</audio>
+                    </div>
+                </div>  
+             </div>
+        </div>
+            
+            
+           
+
+           
+            
+            
+            
+            
+
+
+            
+    
+    </div>
+</body>
+</html>
